@@ -1,6 +1,7 @@
 // import React from "react";
 import { useState, useCallback, useRef } from "react";
 
+//password generated
 const PasswordGen = () => {
   const [length, setLength] = useState(8);
   const [numberAllowed, setNumberAllowed] = useState(false);
